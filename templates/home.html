@@ -3,11 +3,17 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Title</title>
+	<title>Weather Data API</title>
 </head>
 <body>
-	<h1>Data Weather API</h1>
+	<h1>Weather Data API</h1>
 	<p>URL format: http://127.0.0.1:5000/api/v1/station/date</p>
-    <p>URL examlple: http://127.0.0.1:5000/api/v1/10/19881025</p>
+    <p>URL example for one specific station and date: http://127.0.0.1:5000/api/v1/10/1988-10-25</p>
+    <p>URL example for the station's all temperature changes for the entire period: http://127.0.0.1:5000/api/v1/10</p>
+    <p>URL example for one specific station and specific year: http://127.0.0.1:5000/api/v1/yearly/10/1988</p>
+    <p><strong>Notes:</strong></p>
+    <p>STAID: Station Identifier (ID)</p>
+    <p>STANAME: Station Name</p> 
+    <p>{{data|safe}}</p>
 </body>
 </html>
