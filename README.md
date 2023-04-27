@@ -31,7 +31,7 @@ I analyze and clean data, using pandas. Afterward, based on this collected data,
 
 **Data for the whole period for one specific station:**
 
-So that, it shows data starting from 18-19 century.
+So that, it shows data starting from XVIII-XIX centuries.
 
 ![image](https://user-images.githubusercontent.com/102950421/223059838-cf6a862d-b53a-4d60-959e-8766b63eb263.png)
 
